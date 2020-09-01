@@ -24,7 +24,7 @@
             <li class="dropdown"><a role="button" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">L.A.M.P Stack <span class="caret"></span></a>
               <div class="dropdown-menu">
                 <ul class="nav nav-pills nav-stacked">
-                  <li><a href="lampstack.php">PHP Basics</a></li>
+                  <li><a href="index.php">PHP Basics</a></li>
                   <li><a href="#">SQL</a></li>
                 </ul>
               </div>
