@@ -1,0 +1,22 @@
+.jumbotron,.panel{
+  margin:10%;
+}
+.farm{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+.subscription{
+  display: flex;
+  flex-direction: column;  
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.form-group{
+  outline: focus;
+}
