@@ -39,54 +39,9 @@
           </div>
           <div class="col-xs-12 col-md-8">
             <!-- nav start -->
-            <ul class="nav nav-pills">
-              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">PHP basics <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a href="#comments">Comments</a></li>
-                  <li role="presentation"><a href="#variables">Variables</a></li>
-                  <li role="presentation"><a href="#constants">Constants</a></li>
-                  <li role="presentation"><a data-toggle="collapse" data-target="#primitivedatatypes" aria-expanded="false" aria-controls="collapseExample1">Primitive Data Types</a></li>
-                  <div class="collapse" id="primitivedatatypes">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#integer">Integers</a></li>
-                      <li role="presentation"><a href="#string">Strings</a></li>
-                      <li role="presentation"><a href="#boolean">Boolean</a></li>
-                      <li role="presentation"><a href="#float">Float</a></li>
-                      <li role="presentation"><a href="#null">Undefined</a></li>
-                    </ul>
-                  </div>
-                  <li href="presentation"><a data-toggle="collapse" data-target="#referencedatatype" aria-expanded="false" aria-controls="collapseExample2">Reference Data Types</a></li>
-                  <div class="collapse" id="referencedatatype">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#arrays">Arrays</a></li>
-                      <li role="presentation"><a href="#fuctions">Functions</a></li>
-                    </ul>
-                  </div>
-                  <li role="presentation"><a href="#">Conditional Statements</a></li>
-                  <li role="presentation"><a data-toggle="collapse" data-target="#loops" aria-expanded="false" aria-controls="collapseExample3">Loops</a></li>
-                  <div class="collapse" id="loops">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#while">While Loop</a></li>
-                      <li role="presentation"><a href="#dowhile">Do While Loop</a></li>
-                      <li role="presentation"><a href="#forloop">For Loop</a></li>
-                    </ul>
-                  </div>
-                  <li role="presentation"><a href="#switch">Switch Case</a></li>
-                </ul>
-              </li>
-              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">SQL basics <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a href="#create">Create</a></li>
-                </ul>
-              </li>
-            </ul>
+            
             <!-- nav ends-->
-
-            <h4>Resourses</h4>
-            <ol>
-              <li><a href="https://www.w3schools.com/php/"></a>w3schools PHP </li>
-              <li><a href="https://youtu.be/hx38tnlYGlA"></a>Edureka - PHP tutorials for begineers</li>
-            </ol><hr>
+            <hr>
           </div>
           <div class="col-md-1"></div>
         </div>
