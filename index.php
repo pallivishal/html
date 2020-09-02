@@ -1,55 +1,53 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
     <title>L.A.M.P Stack</title>
-    <!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/interests.css" rel="stylesheet">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>    
-    <!-- Custom styles for this template -->
-    <link href="/css/offcanvas.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/interests.css">
   </head>
-  <body class="bg-light">
-
-<header>
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Chamber Of Chiku</a>
-    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">L.A.M.P Stack</a>
-        </li>
-        <!-- nav start -->
-        <li role="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" >PHP basics <span class="caret"></span></a>
+  <body>
+    <!-- header -->
+      <header>
+        <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-cog"></span>
+          </button>
+          <a class="navbar-brand" href="#">Chamber Of Chiku</a>
+        </div>
+        <!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav>
+      </header>
+      <!-- main -->
+      <main>
+      <!-- contianer-fluind start-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="lampstack.php">L.A.M.P Stack</a></li>
+                <li role="presentation" class="active"><a href="mernstack.php">M.R.E.N Stack</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- nav start -->
+            <ul class="nav nav-pills">
+              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">PHP basics <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li role="presentation"><a class="dropdown-item" href="#comments">Comments</a></li>
-                  <li role="presentation"><a class="dropdown-item" href="#variables">Variables</a></li>
-                  <li role="presentation"><a class="dropdown-item" href="#constants">Constants</a></li>
-                  <li role="presentation" class="dropdown-item" ><a  data-toggle="collapse" data-target="#primitivedatatypes" aria-expanded="false" aria-controls="collapseExample1">Primitive Data Types</a></li>
+                  <li role="presentation"><a href="#comments">Comments</a></li>
+                  <li role="presentation"><a href="#variables">Variables</a></li>
+                  <li role="presentation"><a href="#constants">Constants</a></li>
+                  <li role="presentation"><a data-toggle="collapse" data-target="#primitivedatatypes" aria-expanded="false" aria-controls="collapseExample1">Primitive Data Types</a></li>
                   <div class="collapse" id="primitivedatatypes">
-                    <ul class="nav nav-pills flex-cloumn">
+                    <ul class="nav nav-pills nav-stacked">
                       <li role="presentation"><a href="#integer">Integers</a></li>
                       <li role="presentation"><a href="#string">Strings</a></li>
                       <li role="presentation"><a href="#boolean">Boolean</a></li>
@@ -57,62 +55,49 @@
                       <li role="presentation"><a href="#null">Undefined</a></li>
                     </ul>
                   </div>
-                  <li href="presentation" class="dropdown-item"><a data-toggle="collapse" data-target="#referencedatatype" aria-expanded="false" aria-controls="collapseExample2">Reference Data Types</a></li>
+                  <li href="presentation"><a data-toggle="collapse" data-target="#referencedatatype" aria-expanded="false" aria-controls="collapseExample2">Reference Data Types</a></li>
                   <div class="collapse" id="referencedatatype">
-                    <ul class="nav nav-pills flex-column">
+                    <ul class="nav nav-pills nav-stacked">
                       <li role="presentation"><a href="#arrays">Arrays</a></li>
                       <li role="presentation"><a href="#fuctions">Functions</a></li>
                     </ul>
                   </div>
-                  <li role="presentation"><a class="dropdown-item" href="#">Conditional Statements</a></li>
-                  <li role="presentation"><a class="dropdown-item" data-toggle="collapse" data-target="#loops" aria-expanded="false" aria-controls="collapseExample3">Loops</a></li>
+                  <li role="presentation"><a href="#">Conditional Statements</a></li>
+                  <li role="presentation"><a data-toggle="collapse" data-target="#loops" aria-expanded="false" aria-controls="collapseExample3">Loops</a></li>
                   <div class="collapse" id="loops">
-                    <ul class="nav nav-pills nav-flex=column">
+                    <ul class="nav nav-pills nav-stacked">
                       <li role="presentation"><a href="#while">While Loop</a></li>
                       <li role="presentation"><a href="#dowhile">Do While Loop</a></li>
                       <li role="presentation"><a href="#forloop">For Loop</a></li>
                     </ul>
                   </div>
-                  <li role="presentation"><a class="dropdown-item" href="#switch">Switch Case</a></li>
+                  <li role="presentation"><a href="#switch">Switch Case</a></li>
                 </ul>
               </li>
-              <li role="nav-item dropdown" class="dropdown"><a a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">SQL basics <span class="caret"></span></a>
+              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">SQL basics <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li role="presentation"><a class="dropdown-item" href="#create">Create</a></li>
+                  <li role="presentation"><a href="#create">Create</a></li>
                 </ul>
               </li>
-        <!-- nav ends-->
-        <li class="nav-item active">
-          <a class="nav-link" href="#">M.R.E.N Stack</a>
-        </li>                
-      </ul>      
-    </div>
-  </div>
-</nav>
-</header>
-<main>
-  <!-- contianer-fluind start-->
-  <div class="container-fluid">
-        <div class="row justify-content-md-center" >
-          <div class="col-2"></div>          
-          <div class="col-md-8">            
+            </ul>
+            <!-- nav ends-->
             <h1 id="#phpbasics">PHP Basics</h1>
-            <article class="card">
-              <div class="card-header">
-                <h3 class="card-title">PHP Syntax</h3>
+            <article class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">PHP Syntax</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>A PHP script is executed on the server, and the plain HTML result is sent back to the browser.</p>
                 <p><strong>Basic PHP Syntax is represented as follows:</strong></p>
                 <code> &lt?php <br> //PHP code goes here  <br> ?&gt </code>
                 <p>The Default extension for PHP files is ".php" .</p>
               </div>
             </article>
-            <article class="card bg-light" id="comments">
-              <div class="card-header">
-                <h3 class="card-title">Comments</h3>
+            <article class="panel panel-info" id="comments">
+              <div class="panel-heading">
+                <h3 class="panel-title">Comments</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>A comment in PHP code is a line that is not executed as a part of the program.</p>
                 <p>Its only purpose is to be read by someone who is looking at the code.</p>
                 <p>PHP supports several ways of commenting:</p>
@@ -128,11 +113,11 @@
                 </table>
               </div>
             </article>
-            <article class="card bg-light" id="variables">
-              <div class="card-header">
-                <h3 class="card-title">Variables</h3>
+            <article class="panel panel-info" id="variables">
+              <div class="panel-heading">
+                <h3 class="panel-title">Variables</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Varaiables are used to store value,data or information in computer programming.</p>
                 <p>In PHP, a variable starts with the <samp>$</samp> sign, followed by the name of the variable.</p>
                 <p><strong>Example</strong></p>
@@ -148,11 +133,11 @@
                 </ul>
               </div>
             </article>
-            <article class="card bg-light" id="constants">
-              <div class="card-header">
-                <h3 class="card-title">Constants</h3>
+            <article class="panel panel-info" id="constants">
+              <div class="panel-heading">
+                <h3 class="panel-title">Constants</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Constants are like variables except that once they are defined they cannot be changed or undefined.</p>
                 <p><strong>Method Of implemetation</strong></p>
                 <ul>
@@ -171,11 +156,11 @@
                 </ul>
               </div>
             </article>
-            <article class="card bg-light">
-              <div class="card-header">
-                <h3 class="card-title">Primitive Data Type</h3>
+            <article class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Primitive Data Type</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Variables can store data of different types, and different data types can do different things.</p>
                 <ol>
                   <li id="integer"><strong>Integers</strong>
@@ -218,11 +203,11 @@
                 </ol>
               </div>
             </article>
-            <article class="card bg-light">
-              <div class="card-header">
-                <h3 class="card-title">Reference Data Type</h3>
+            <article class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Reference Data Type</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <ol>
                   <li id="arrays"><strong>Arrays</strong>
                     <p>An array stores multiple values in one single variable.</p>
@@ -244,11 +229,11 @@
                 </ol>
               </div>
             </article>
-            <article class="card bg-light">
-              <div class="card-header">
-                <h3 class="card-title">Conditional Statements</h3>
+            <article class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Conditional Statements</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Very often when you write code, you want to perform different actions for different conditions.</p>
                 <p>You can use conditional statements in your code to do this.</p>
                 <p>In PHP we have the following conditional statements:</p>
@@ -285,11 +270,11 @@
                 </ol>
               </div>
             </article>
-            <article class="card bg-light">
-              <div class="card-header">
-                <h3 class="card-title">Loops</h3>
+            <article class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Loops</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Loops are used to execute the same block of code again and again, as long as a certain condition is true.</p>
                 <p>In PHP, we have the following loop types:</p>
                 <ul>
@@ -340,11 +325,11 @@
                 </ol>
               </div>
             </article>
-            <article class="card bg-light">
-              <div class="card-header">
-                <h3 class="card-title" id="switch"><samp>switch</samp> Statement</h3>
+            <article class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title" id="switch"><samp>switch</samp> Statement</h3>
               </div>
-              <div class="card-body">
+              <div class="panel-body">
                 <p>Use the switch statement to select one of many blocks of code to be executed.</p>
                 <p><strong>Syntax</strong></p>
                 <p><samp>switch (<kbd>n</kbd>) {<br>  case <var>label1</var>:<br>    <var>code to be executed if n=label1</var>;<br>    break;<br>  case <var>label2</var>:<br>    <var>code to be executed if n=label2</var>;<br>    break;<br>  case <var>label3</var>:<br>    <var>code to be executed if n=label3</var>;<br>    break;<br>    <var>...</var><br>  default:<br>    <var>code to be executed if n is different from all labels</var>;<br>}</samp></p>
@@ -356,15 +341,15 @@
               <li><a href="https://youtu.be/hx38tnlYGlA"></a>Edureka - PHP tutorials for begineers</li>
             </ol><hr>
           </div>
-          <div class="col-2"></div>
+          <div class="col-md-1"></div>
         </div>
         <!-- nav end -->
       </div>
-      <!--container fluid end --> 
-</main>
-
-<!-- Script -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
-      <script src="/js/offcanvas.js"></script>
+      <!--container fluid end -->
+      </main>
+      <!--footer -->
+<!-- scripts -->
+    <script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
   </body>
 </html>
