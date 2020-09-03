@@ -10,7 +10,13 @@
   <body>
     <!-- header -->
       <header>
-        <nav class="navbar navbar-inverse">
+      </header>
+      <!-- main -->
+      <main>
+      <!-- contianer-fluind start-->
+      <div class="container-fluid">      
+        <!--navbar init-->
+        <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -18,67 +24,66 @@
             <span class="glyphicon glyphicon-cog"></span>
           </button>
           <a class="navbar-brand" href="#">Chamber Of Chiku</a>
+        </div><!-- /.nav-collapse -->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php">L.A.M.P Stack</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">PHP basics <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <div class="nav nav-pill stacked">
+                  <li role="presentation"><a href="#comments">Comments</a></li>
+                  <li role="presentation"><a href="#variables">Variables</a></li>
+                  <li role="presentation"><a href="#constants">Constants</a></li>
+                  <li role="seperator" class="divider"></li>
+                  <li class="text-muted">Primitive Data Types</li>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><a href="#integer">Integers</a></li>
+                    <li role="presentation"><a href="#string">Strings</a></li>
+                    <li role="presentation"><a href="#boolean">Boolean</a></li>
+                    <li role="presentation"><a href="#float">Float</a></li>
+                    <li role="presentation"><a href="#null">Undefined</a></li>
+                  </ul>
+                  <li role="separator" class="divider"></li>
+                  <li class="text-muted">Reference Data Types</li>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><a href="#arrays">Arrays</a></li>
+                    <li role="presentation"><a href="#fuctions">Functions</a></li>
+                  </ul>
+                  <li role="separator" class="divider"></li>
+                  <li role="presentation"><a href="#">Conditional Statements</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="text-muted">Loops</li>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation"><a href="#while">While Loop</a></li>
+                    <li role="presentation"><a href="#dowhile">Do While Loop</a></li>
+                    <li role="presentation"><a href="#forloop">For Loop</a></li>
+                  </ul>
+                  <li role="separator" class="divider"></li>
+                  <li role="presentation"><a href="#switch">Switch Case</a></li>
+                </div>
+                </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">SQL basics <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <div class="nav nav-pill nav-stacked">
+                  <li role="presentation"><a href="#create">Create</a></li>
+                </div>
+              </ul>
+            </li>
+            <li class="active"><a href="mernstack.php">M.R.E.N Stack</a></li>
+          </ul>
         </div>
-        <!-- /.nav-collapse -->
       </div><!-- /.container -->
     </nav>
-      </header>
-      <!-- main -->
-      <main>
-      <!-- contianer-fluind start-->
-      <div class="container-fluid">
+        <!--navbar end-->
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-2">
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav nav-pills nav-stacked">
-                <li role="presentation" class="active"><a href="lampstack.php">L.A.M.P Stack</a></li>
-                <li role="presentation" class="active"><a href="mernstack.php">M.R.E.N Stack</a></li>
-              </ul>
-            </div>
           </div>
           <div class="col-xs-12 col-md-8">
             <!-- nav start -->
             <ul class="nav nav-pills">
-              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">PHP basics <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a href="#comments">Comments</a></li>
-                  <li role="presentation"><a href="#variables">Variables</a></li>
-                  <li role="presentation"><a href="#constants">Constants</a></li>
-                  <li role="presentation"><a data-toggle="collapse" data-target="#primitivedatatypes" aria-expanded="false" aria-controls="collapseExample1">Primitive Data Types</a></li>
-                  <div class="collapse" id="primitivedatatypes">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#integer">Integers</a></li>
-                      <li role="presentation"><a href="#string">Strings</a></li>
-                      <li role="presentation"><a href="#boolean">Boolean</a></li>
-                      <li role="presentation"><a href="#float">Float</a></li>
-                      <li role="presentation"><a href="#null">Undefined</a></li>
-                    </ul>
-                  </div>
-                  <li href="presentation"><a data-toggle="collapse" data-target="#referencedatatype" aria-expanded="false" aria-controls="collapseExample2">Reference Data Types</a></li>
-                  <div class="collapse" id="referencedatatype">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#arrays">Arrays</a></li>
-                      <li role="presentation"><a href="#fuctions">Functions</a></li>
-                    </ul>
-                  </div>
-                  <li role="presentation"><a href="#">Conditional Statements</a></li>
-                  <li role="presentation"><a data-toggle="collapse" data-target="#loops" aria-expanded="false" aria-controls="collapseExample3">Loops</a></li>
-                  <div class="collapse" id="loops">
-                    <ul class="nav nav-pills nav-stacked">
-                      <li role="presentation"><a href="#while">While Loop</a></li>
-                      <li role="presentation"><a href="#dowhile">Do While Loop</a></li>
-                      <li role="presentation"><a href="#forloop">For Loop</a></li>
-                    </ul>
-                  </div>
-                  <li role="presentation"><a href="#switch">Switch Case</a></li>
-                </ul>
-              </li>
-              <li role="presentation" class="dropdown"><a class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-hashpopup="true">SQL basics <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a href="#create">Create</a></li>
-                </ul>
-              </li>
+
             </ul>
             <!-- nav ends-->
             <h1 id="#phpbasics">PHP Basics</h1>
