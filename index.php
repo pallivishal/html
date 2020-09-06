@@ -14,7 +14,7 @@
       <!-- main -->
       <main>
       <!-- contianer-fluind start-->
-      <div class="container-fluid">      
+      <div class="container-fluid">
         <!--navbar init-->
         <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container-fluid">
@@ -342,8 +342,8 @@
             </article><hr>
             <h4>Resourses</h4>
             <ol>
-              <li><a href="https://www.w3schools.com/php/"></a>w3schools PHP </li>
-              <li><a href="https://youtu.be/hx38tnlYGlA"></a>Edureka - PHP tutorials for begineers</li>
+              <li><a href="https://www.w3schools.com/php/">w3schools PHP</a></li>
+              <li><a href="https://youtu.be/hx38tnlYGlA">Edureka - PHP tutorials for begineers</a></li>
             </ol><hr>
           </div>
           <div class="col-md-1"></div>
